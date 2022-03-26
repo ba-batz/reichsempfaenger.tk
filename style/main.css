@@ -19,15 +19,15 @@ body {
     margin-bottom: 16px;
 }
 
-#h0 {
+#h0 h1 {
     font-family: 'Arial Black', 'Arial Bold', 'Gadget', sans-serif;
-    font-size: 78px;
     text-decoration: underline;
+    font-size: 74px;
     color: var(--c1);
     text-align: center;
     text-shadow: 1px 1px 1px var(--c4);
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 8px;
+    margin-bottom: 14px;
 }
 
 .container {
@@ -67,7 +67,7 @@ body {
     background-color: var(--c5);
 }
 
-#sidenote {
+.sidenote {
     color: var(--c4);
     font-weight: bold;
     margin-top: 64px;
