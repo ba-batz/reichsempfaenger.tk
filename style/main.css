@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+:root {
+    --c5: #FBCDE4;
+    --c3: #95C7F1;
+    --c4: #FFF5E8;
+    --c2: #CABFEF;
+    --c1: #FDD6BF;
+    --border-rad: 1px;
+}
+
+html {
+    background-image: url(nicebackground.png);
+    font-family: 'Press Start 2P';
+    color: var(--c4)
+}
+
+body {
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+#master_title h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 78px;
+    text-decoration: underline;
+    color: var(--c1);
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--c4);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container {
+    background-color: var(--c2);
+    max-width: 1200px;
+    min-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    box-shadow: 0px 0px var(--border-rad) 2px var(--c3);
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #container {
+        padding: 8px;
+        padding-top: 8px;
+        padding-bottom: 16px;
+        box-shadow: 0px 0px var(--border-rad) 2px var(--c3);
+        border-radius: 0px;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+    }
+}
+
+#redirects ul {
+    display: inline;
+}
+
+#redirects ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 8px 4px;
+    vertical-align: middle;
+}
+
+#redirects ul li a {
+    font-family: 'Fredoka', sans-serif;
+    color: var(--c4);
+    padding: 8px 24px;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: 0.3s;
+    font-size: 42px;
+}
+
+#redirects ul li a:hover {
+    background-color: var(--c5);
+}
+
+#info-text {
+    color: var(--c4);
+    font-weight: bold;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.info {
+    text-align: left;
+    width: 100%;
+}
+
+.info ul {
+    color: var(--c4);
+    font-size: 18px;
+    margin-bottom: 64px;
+}
+
+.info img {
+    margin-bottom: 24px;
+    text-align: right;
+    width: 10px;
+    padding-right: 16px;
+}
+
+.info-container {
+    padding-top: 16px;
+    border-top: 3px solid var(--c1);
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+}
+
+.info-container p {
+    width: 50%;
+}
+
+.info-container img {
+    width: 14%;
+}
+
+body div[style] {
+    opacity: 0%;
+    height: 0%;
+    left: 999px;
+}
+
+.disclaimer {
+    display: none;
+}
