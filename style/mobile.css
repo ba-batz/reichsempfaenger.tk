@@ -1,0 +1,5 @@
+html {
+    background-image: url(/files/nicebackground.png);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: var(--c4)
+}

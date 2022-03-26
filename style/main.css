@@ -12,7 +12,7 @@
 }
 
 html {
-    background-image: url(nicebackground.png);
+    background-image: url(/files/nicebackground.png);
     font-family: 'Press Start 2P';
     color: var(--c4)
 }
