@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 :root {
     --c5: #FBCDE4;
@@ -22,12 +20,12 @@ body {
 }
 
 #h0 {
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Arial Black', 'Arial Bold', 'Gadget', sans-serif;
     font-size: 78px;
     text-decoration: underline;
     color: var(--c1);
     text-align: center;
-    text-shadow: 2px 2px 2px var(--c4);
+    text-shadow: 1px 1px 1px var(--c4);
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -56,7 +54,7 @@ body {
 }
 
 #redirects ul li a {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
     color: var(--c4);
     padding: 8px 24px;
     text-decoration: none;
@@ -69,7 +67,7 @@ body {
     background-color: var(--c5);
 }
 
-#info-text {
+#sidenote {
     color: var(--c4);
     font-weight: bold;
     margin-top: 64px;
