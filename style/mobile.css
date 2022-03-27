@@ -43,3 +43,28 @@ h1 {
 .info ul {
     font-size: small;
 }
+
+.info img {
+    margin-bottom: 24px;
+    text-align: center;
+    width: 10px;
+    padding-right: 16px;
+}
+
+.info-container {
+    padding-top: 16px;
+    border-top: 3px solid var(--c1);
+    text-align: left;
+    width: 100%;
+    display: flex;
+}
+
+
+.info-container p {
+    width: 100%;
+}
+
+.info-container img {
+    width: 24%;
+    height: 24%;
+}
